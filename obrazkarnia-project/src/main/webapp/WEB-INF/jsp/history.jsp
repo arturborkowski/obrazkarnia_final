@@ -8,7 +8,7 @@
 
         <div class="row">
 
-            <div class="col-lg-12">
+            <div class="col-lg-12"> 
             <div class="history">
                 <h1 class="page-header">Historia wyszukiwania</h1>
                 </div>
