@@ -16,39 +16,39 @@
           
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="style/images/gallery/2.jpg" alt="" style="width:400px;height:200px">
+                    <img class="img-responsive" src="style/images/gallery/2.jpg" alt="" style="width:25em;height:14em">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="style/images/gallery/3.jpg" alt="" style="width:400px;height:200px">
+                    <img class="img-responsive" src="style/images/gallery/3.jpg" alt="" style="width:25em;height:14em">
                 </a>
             </div>
 
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="style/images/gallery/4.jpg" alt=""style="width:400px;height:200px">
+                    <img class="img-responsive" src="style/images/gallery/4.jpg" alt=""style="width:25em;height:14em">
                 </a>
             </div>
                 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="style/images/gallery/1.jpg" alt="" style="width:400px;height:200px">
+                    <img class="img-responsive" src="style/images/gallery/1.jpg" alt="" style="width:25em;height:14em">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="style/images/gallery/5.jpg" alt="" style="width:400px;height:200px">
+                    <img class="img-responsive" src="style/images/gallery/5.jpg" alt="" style="width:25em;height:14em">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="style/images/gallery/6.jpg" alt="" style="width:400px;height:200px">
+                    <img class="img-responsive" src="style/images/gallery/6.jpg" alt="" style="width:25em;height:14em">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
             
                 <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="style/images/gallery/7.jpg" alt="" style="width:400px;height:200px">
+                    <img class="img-responsive" src="style/images/gallery/7.jpg" alt="" style="width:25em;height:14em">
                 </a>
             </div>
         </div>

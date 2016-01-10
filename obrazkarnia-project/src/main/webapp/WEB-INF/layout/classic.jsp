@@ -89,7 +89,7 @@
 						<li class="${current == 'logout' ? 'active': ''}"><a
 							href='<spring:url value="/history.html"/>'>Historia</a></li>
 						<li class="${current == 'logout' ? 'active': ''}"><a
-							href='<spring:url value="#"/>'>Ulubione</a></li>
+							href='<spring:url value="/favourite.html"/>'>Ulubione</a></li>
 						<li class="${current == 'logout' ? 'active': ''}"><a
 							href='<spring:url value="/logout"/>'>Wyloguj się</a></li>
 					</security:authorize>
