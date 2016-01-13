@@ -1,0 +1,13 @@
+pl\obrazkarnia\build\repository\BlogRepository.class
+pl\obrazkarnia\build\repository\ItemRepository.class
+pl\obrazkarnia\build\repository\UserRepository.class
+pl\obrazkarnia\build\entity\User.class
+pl\obrazkarnia\build\controller\IndexController.class
+pl\obrazkarnia\build\entity\Blog.class
+pl\obrazkarnia\build\controller\LoginController.class
+pl\obrazkarnia\build\repository\RoleRepository.class
+pl\obrazkarnia\build\service\UserService.class
+pl\obrazkarnia\build\controller\UserController.class
+pl\obrazkarnia\build\entity\Item.class
+pl\obrazkarnia\build\entity\Role.class
+pl\obrazkarnia\build\service\InitDbService.class

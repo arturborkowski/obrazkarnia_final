@@ -22,7 +22,7 @@
 	<definition name="user-detail" extends="common">
 		<put-attribute name="title" value="User Detail" />
 		<put-attribute name="body" value="/WEB-INF/jsp/user-detail.jsp" />
-		<put-attribute name="current" value="users" />
+		<put-attribute name="current" value="user-detail" />
 	</definition>
 	
 	<definition name="user-register" extends="common">
@@ -37,15 +37,21 @@
 		<put-attribute name="current" value="login" />
 	</definition>
 	
-	   <definition name="history" extends="common">
+	  <definition name="history" extends="common">
         <put-attribute name="title" value="History" />
         <put-attribute name="body" value="/WEB-INF/jsp/history.jsp" />
         <put-attribute name="current" value="history" />
     </definition>
     
-     <definition name="history" extends="common">
+     <definition name="favourite" extends="common">
         <put-attribute name="title" value="Favourite" />
         <put-attribute name="body" value="/WEB-INF/jsp/history.jsp" />
         <put-attribute name="current" value="favourite" />
+    </definition>
+    
+    <definition name="account" extends="common">
+        <put-attribute name="title" value="My account" />
+        <put-attribute name="body" value="/WEB-INF/jsp/account.jsp" />
+        <put-attribute name="current" value="account" />
     </definition>
 </tiles-definitions>
