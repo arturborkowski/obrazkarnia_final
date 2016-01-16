@@ -18,18 +18,29 @@
 <!--  Get current page for being active in menu -->
 <tilesx:useAttribute name="current" />
 
+
+<!-- Bootstrap basic css stylesheet -->
 <link rel="stylesheet"
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
 	integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
 	crossorigin="anonymous">
 
+
+<!-- JS File that makes it possible to use BOOTSTRAP js -->
 <script
 	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+
+<!-- Bootstrap js file -->
 <script
 	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
 	integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
 	crossorigin="anonymous"></script>
+
+
+<!-- jQuery Validation Plugin -->
+<script type="text/javascript"
+	src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
 
 
 
@@ -40,37 +51,24 @@
 <%-- <spring:url value="/style/css/bootstrap.min.css" var="bootstrapCss" /> --%>
 <%-- <spring:url value="style/js/bootstrap.min.js" var="bootstrapJs" />
  --%>
+ 
+ <!-- Custom CSS file definition -->
 <spring:url value="/style/css/style.css" var="styleCss" />
-<spring:url value="/style/images/login-icon.png" var="loginIcon" />
-<spring:url value="/style/images/register-icon.png" var="registerIcon" />
-
-
-
 
 <!-- Custom CSS -->
-<%-- <link rel="stylesheet" href='${bootstrapCss}'> --%>
 <link rel="stylesheet" href='${styleCss}'>
+
+
+<%-- <link rel="stylesheet" href='${bootstrapCss}'> --%>
 <%-- <script src='${bootstrapJs}'></script> --%>
+
+
 
 
 
 
 </head>
 <body>
-
-	<%-- <div class="main-page-menu">
-		<div class="icon">
-			<a href=""> <img src='${loginIcon}' />
-			</a>
-		</div>
-		<div class="icon">
-			<a href=""> <img src='${registerIcon}' />
-			</a>
-		</div>
-	</div> --%>
-
-
-
 
 	<!-- Static navbar -->
 	<nav class="navbar navbar-default">
@@ -100,7 +98,7 @@
 							href='<spring:url value="/login.html"/>'>Logowanie</a></li>
 					</security:authorize>
 					<security:authorize access="isAuthenticated()">
-						<li class="${current == 'user-detail' ? 'active': ''}"><a
+						<li class="${current == 'account' ? 'active': ''}"><a
 							href='<spring:url value="/account.html"/>'>Profil</a></li>
 						<li class="${current == 'history' ? 'active': ''}"><a
 							href='<spring:url value="/history.html"/>'>Historia</a></li>
