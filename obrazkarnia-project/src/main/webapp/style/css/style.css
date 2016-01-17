@@ -427,8 +427,14 @@ p {
 	box-shadow: none !important;
 	color: #888;
 	font-weight: 300;
+	background-color: #FF432E;
+
 }
 
+
+.section-modal .modal-content .modal-body {
+    background-color: black;
+}
 .section-modal .close-modal {
 	position: absolute;
 	top: 25px;

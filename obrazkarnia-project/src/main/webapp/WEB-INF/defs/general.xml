@@ -45,7 +45,7 @@
     
      <definition name="favourite" extends="common">
         <put-attribute name="title" value="Favourite" />
-        <put-attribute name="body" value="/WEB-INF/jsp/history.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/favourite.jsp" />
         <put-attribute name="current" value="favourite" />
     </definition>
     
