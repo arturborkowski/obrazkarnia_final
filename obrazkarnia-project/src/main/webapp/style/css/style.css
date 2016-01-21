@@ -46,8 +46,8 @@ body {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover,
 	.navbar-default .navbar-nav>.active>a:focus {
-	color: #555;
-	background-color: #e7e7e7
+	color: white;
+	background-color: #999
 }
 
 .navbar-default .navbar-nav>.disabled>a, .navbar-default .navbar-nav>.disabled>a:hover,
@@ -243,8 +243,9 @@ p {
 /****gallery*****/
 
 .history h1{
-	background: rgba(0, 0, 0, 0.7);
 	color: #999;
+	background: rgba(0, 0, 0, 0.7);
+	font-size: 25px;
 }
 
 
@@ -432,10 +433,7 @@ p {
 }
 
 
-.section-modal .modal-content .modal-body {
-    background-color: black;
-}
-.section-modal .close-modal {
+section-modal .close-modal {
 	position: absolute;
 	top: 25px;
 	right: 25px;

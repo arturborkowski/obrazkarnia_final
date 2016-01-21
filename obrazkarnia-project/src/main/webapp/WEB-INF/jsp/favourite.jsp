@@ -16,7 +16,7 @@
         
             <div class="col-lg-12"> 
                 <div class="history">
-                <h1 class="page-header">Historia wyszukiwania</h1>
+                <h1 class="page-header">Ulubione</h1>
                 </div>
             </div>
             <%for (images = 1; images <= 6; images++){ %>

@@ -6,66 +6,47 @@
 <html>
 <head>
 
-
-
 <%@ taglib uri="http://www.springframework.org/tags" prefix="spring"%>
 <%@ taglib uri="http://tiles.apache.org/tags-tiles-extras"
 	prefix="tilesx"%>
 <%@ taglib uri="http://www.springframework.org/security/tags"
 	prefix="security"%>
 
-
 <!--  Get current page for being active in menu -->
 <tilesx:useAttribute name="current" />
 
-
 <!-- Bootstrap basic css stylesheet -->
-<link rel="stylesheet"
-	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-	integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
-	crossorigin="anonymous">
-
-
-<!-- JS File that makes it possible to use BOOTSTRAP js -->
-<script
-	src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
+<link rel="stylesheet" href="../../style/css/bootstrap.min.css">
 
 <!-- Bootstrap js file -->
-<script
-	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-	integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-	crossorigin="anonymous"></script>
+<script src="../../style/js/bootstrap.min.js"></script>
 
+<!-- AJAX for modal window  -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Add jQuery library -->
+<script src = "../../fancybox/jquery-1.10.1.min.js"></script>
+
+<!-- Add fancyBox main JS and CSS files -->
+<script src = "../../fancybox/source/jquery.fancybox.js"></script>
+<link rel="stylesheet" href="../../fancybox/source/jquery.fancybox.css">
+
+<!-- Add mousewheel plugin -->
+<script src = "../../fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
 
 <!-- jQuery Validation Plugin -->
 <script type="text/javascript"
 	src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
 
-
-
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title><tiles:getAsString name="title" /></title>
 
-
-<%-- <spring:url value="/style/css/bootstrap.min.css" var="bootstrapCss" /> --%>
-<%-- <spring:url value="style/js/bootstrap.min.js" var="bootstrapJs" />
- --%>
  
  <!-- Custom CSS file definition -->
 <spring:url value="/style/css/style.css" var="styleCss" />
 
 <!-- Custom CSS -->
 <link rel="stylesheet" href='${styleCss}'>
-
-
-<%-- <link rel="stylesheet" href='${bootstrapCss}'> --%>
-<%-- <script src='${bootstrapJs}'></script> --%>
-
-
-
-
-
 
 </head>
 <body>
@@ -129,24 +110,19 @@
 	</section>
 	<!-- End Logo Section -->
 
-
 	<!-- Start Main Body Section -->
 	<div class="mainbody-section text-center">
-
 
 		<tiles:insertAttribute name="body" />
 
 	</div>
 
 	<!-- End Main Body Section -->
-
-
+	
 	<br />
 	<br />
 	<center>
-
 		<tiles:insertAttribute name="footer" />
-
 	</center>
 	</div>
 </body>
