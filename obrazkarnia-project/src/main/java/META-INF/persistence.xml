@@ -5,5 +5,7 @@
 		<class>pl.obrazkarnia.build.entity.Role</class>
 		<class>pl.obrazkarnia.build.entity.Blog</class>
 		<class>pl.obrazkarnia.build.entity.Item</class>
+		<class>pl.obrazkarnia.build.entity.Image</class>
+		<class>pl.obrazkarnia.build.entity.SearchHistory</class>
 	</persistence-unit>
 </persistence>

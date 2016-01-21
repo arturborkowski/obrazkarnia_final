@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.validation.constraints.Size;
 
 import org.hibernate.validator.constraints.Email;
@@ -47,6 +48,9 @@ public class User {
 	
 	@OneToMany(mappedBy = "user", cascade=CascadeType.REMOVE)
 	private List<Blog> blogs;
+	
+	@OneToOne(mappedBy="user", cascade=CascadeType.REMOVE)
+	private SearchHistory history;
 	
 
 	public Integer getId() {
