@@ -3,20 +3,24 @@
 
 <%@ include file="../layout/taglib.jsp"%>
 
-    
 
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal"
-	data-target="#myModal">New Blog</button>
+<div class="container">
 
-<br />
-<br />
+	<div class="row">
+
+		<div class="col-lg-12">
+			<div class="history">
+				<h1 class="page-header">Profil (w rozbudowie)</h1>
+			</div>
+		</div>
+	</div>
+</div>
 
 
 
 
-
+<%-- 
 
 <form:form commandName="blog" cssClass="form-horizontal blogForm">
 
@@ -183,4 +187,4 @@
 		</div>
 	</div>
 
-	<!-- END OF REMOVAL CONFIRMATION WINDOW -->
+	<!-- END OF REMOVAL CONFIRMATION WINDOW --> --%>

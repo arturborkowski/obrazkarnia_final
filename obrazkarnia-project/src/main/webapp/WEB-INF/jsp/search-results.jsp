@@ -21,20 +21,18 @@
 		</form>
 
 	</div>
-</div>
 
 
-<br />
-<br />
+	<br /> <br />
 
 
-<script type="text/javascript">
-	$(document).ready(function() {
+	<script type="text/javascript">
+		$(document).ready(function() {
 
-		$('.fancybox').fancybox();
-	});
-</script>
-<div class="container">
+			$('.fancybox').fancybox();
+		});
+	</script>
+
 
 	<div class="row">
 
@@ -43,15 +41,12 @@
 				<h1 class="page-header">Wyniki wyszukiwania</h1>
 
 				<c:forEach items="${photos}" var="foto">
-
 					<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 						<a class="fancybox" href="${foto.originalSize.url}"
 							data-fancybox-group="gallery"><img class="thumbnail"
 							src="${foto.originalSize.url}" alt=""
 							style="width: 28rem; height: 22rem" /></a>
 					</div>
-
-					<br />
 				</c:forEach>
 
 			</div>

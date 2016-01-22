@@ -49,7 +49,7 @@ public class User {
 	@OneToMany(mappedBy = "user", cascade=CascadeType.REMOVE)
 	private List<Blog> blogs;
 	
-	@OneToOne(mappedBy="user", cascade=CascadeType.REMOVE)
+	@OneToOne(mappedBy="user", cascade=CascadeType.ALL)
 	private SearchHistory history;
 	
 
@@ -115,6 +115,14 @@ public class User {
 
 	public void setEnabled(boolean enabled) {
 		this.enabled = enabled;
+	}
+
+	public SearchHistory getHistory() {
+		return history;
+	}
+
+	public void setHistory(SearchHistory history) {
+		this.history = history;
 	}
 	
 	
